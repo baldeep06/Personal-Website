@@ -1,2 +1,2 @@
 # Personal-Website
-The future of baldeeppannu.ca 
+Check out baldeeppannu.ca! Learn more about me!
