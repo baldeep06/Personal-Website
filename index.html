@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baldeep Pannu</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <a href="index.html" class="name">
+        Baldeep Pannu.
+      </a>
+
+      <!-- 
+      <button aria-label="toggle" id="togglebutton">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="menu-open">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="menu-close">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg> 
+        
+
+      </button> -->
+
+      <li class="navbar">
+        <a href="/" class="smallscreen">
+          Home
+        </a>
+
+        <a href="/" class="smallscreen">
+          Who am I?
+        </a>
+
+        <a href="/" class="smallscreen">
+          Contact me
+        </a>
+
+        <a href="https://github.com/baldeep06" target="_blank" class="smallscreen">
+          <img src="images/github.png" alt="GitHub" width="37" height="auto">
+        </a>
+
+        <a href="https://www.instagram.com/baldeepsingh.6/" target="_blank" class="smallscreen">
+          <img src="images/Instagram_icon.png" alt="Instagram" width="37" height="auto">
+        </a>
+
+        <a href="https://www.linkedin.com/in/baldeep-pannu06" target="_blank" class="smallscreen">
+          <img src="images/image-from-rawpixel-id-3344968-original.png" alt="LinkedIn" width="37" height="auto">
+        </a>
+
+        <a onclick="openBar()" href="#" class="menu"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewbox="0 -960 960 960" width="30">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg>
+        </a>
+
+      </li>
+
+      <li class="sidebar">
+
+        <a onclick="closeBar()" href="#" class="bu"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewbox="0 -960 960 960" width="30">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg>
+        </a>
+
+        <a href="#Top">
+          Home
+        </a>
+
+        <a href="/">
+          Who am I?
+        </a>
+
+        <a href="/">
+          Proe
+        </a>
+
+        <a href="https://github.com/baldeep06" target="_blank">
+          <img src="images/github.png" alt="GitHub" width="37" height="auto">
+        </a>
+
+        <a href="https://www.instagram.com/baldeepsingh.6/" target="_blank">
+          <img src="images/Instagram_icon.png" alt="Instagram" width="37" height="auto">
+        </a>
+
+        <a href="https://www.linkedin.com/in/baldeep-pannu06" target="_blank">
+          <img src="images/image-from-rawpixel-id-3344968-original.png" alt="LinkedIn" width="37" height="auto">
+        </a>
+
+      </li>
+    </nav>
+
+    <main>
+      <!--<div class="home">
+        <div class="main-info">
+          <h3 class="hello">
+            Hello! I'm Baldeep Pannu
+          </h3>
+          <div class="main-items">
+            <p class="who-am-i">
+              Hey, you stumbled upon this pretty neat website, good for you! My name is Baldeep Pannu and I'm a 1B Computing and Financial Managment student at the University of Waterloo (it's a pretty cool program, trust me), in which I am double majoring in Computer Science and Finance. Click the amazing magical button below (or scroll down) to see what my interests are, what I'm up to and learn more about who I am!
+            </p>
+
+        <div class="pic-div">
+          <img src="images/filler pic.jpg" alt="my-pic" class="pic-main">
+        </div>
+
+        <a href="#contact" class="first-button">Find out more about me!</a>
+
+          </div>
+        </div>
+      </div> -->
+
+      <div class="home">
+        <div class="main-info">
+          <h3 class="hello">
+            Hello! I'm Baldeep Pannu
+          </h3>
+
+          <p class="who-am-i">
+            Hey, you stumbled upon this pretty neat website, good for you! My name is Baldeep Pannu and I'm a 1B
+            Computing and Financial Managment student at the University of Waterloo (it's a pretty cool program, trust
+            me), in which I am double majoring in Computer Science and Finance. Scroll down to see what my interests
+            are, what I'm up to and learn more about who I am! If I'm that interesting to you, click the amazing magical
+            button below to contact me!
+          </p>
+
+          <a href="#contact" class="first-button">Contact Me!</a>
+        </div>
+
+        <div class="pic-div">
+          <img src="images/IMG_3836-photoaidcom-cropped.JPEG" alt="my-pic" class="pic-main">
+        </div>
+      </div>
+
+      <div class="about-me reveal">
+        <h3 class="about">About Me.</h3>
+
+        <div class="hold-text">
+          <div class="text-box1">
+            <h3>So uhh....I'm a student</h3>
+            <p>
+              I think I might've mentioned it already, I'm a student. I have to study. A lot. Makes sense given that I'm
+              in The University of Waterloo's elusive "Math" Faculty. And sometimes it can be hard. Really hard. But the
+              satisfaction from finishing that assignment or handing in that exam, it makes it all worth it.
+            </p>
+          </div>
+          <div class="text-box1">
+            <h3>This team is ruining my life!</h3>
+            <p>
+              Thanks Steve Dangle, couldn't have said it any better myself. If you have't already caught on, I'm a
+              Toronto Maple Leafs fan. Have been ever since....well ever since I can remember. I ask myself everyday,
+              "why did you pick this horrible team?" I could't give you an answer for the life of me. It's been what, 7
+              years in the Matthews era and only one playoff series win? I don't think I'll live to see a Leafs cup win.
+              It's already been 57 years, anyways.
+            </p>
+          </div>
+          <div class="text-box1">
+            <h3>The train</h3>
+            <p>
+              The train. Who doesn't love trains? Politicians don't, apparantly. Ever since I was a child, the nearby
+              railroad tracks have always fascinated me. You're telling me thousands of tons of machinery is just
+              whirring down a pair of two steel rods? How cool is that? And the best feeling in the world is when you're
+              on one of these mighty beasts, whirring past traffic. As of late, I've had to make nearly commutes from my
+              University to my home, which has required me to board a cramped bus. When a train, going the same route
+              exists. Why, you might ask? Well, it's because seemingly everyone in this country doesn't care if our
+              trains run at all. I'm getting a bit too animated now. Point is, I like trains.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectssec">
+        <h3 class="label2">Projects</h3>
+
+        <div class="projects-container">
+          <div class="robo">
+            <h4>
+              Financial Robo-Advisor
+            </h4>
+
+            <div class="robo-pic">
+              <img src="images/realrobo.png" alt="my-pic" class="pic-main">
+            </div>
+
+            <p>
+              Imagine taking a database of stocks and making the safest possible portfolio with it. Now imagine doing the same thing, but risky instead. You would generate a portfolio that would likely be the most exciting portfolio known to humankind, but perhaps the most terrifying. The Financial Robo-Advisor is the mastermind behind this crazy portfolio.
+            </p>
+
+            <a href="#contact" class="second-button">GitHub Link</a>
+          </div>
+          <div class="this-web">
+            <h4>
+              This Website
+            </h4>
+
+            <div class="dev-pic">
+              <img src="images/dev.png.png" alt="my-pic" class="pic-main">
+            </div>
+
+            <p>
+              This website may seem nothing out of the ordinary, but fear not, it has a lot more to it. And by a lot more, all I mean is that the website talks about me! And I consider myself perhaps slightly less than ordinary. This website skillfully uses HTML, CSS and Javasript, and the best part about it is that it will constantly be improving, just like me!
+            </p>
+
+            <a href="#contact" class="second-button">GitHub Link</a>
+
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
